@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/background-di-legno.jpg.jpg);
+    background-size: cover;
+    padding: 0 40px;
+}
+
+header{
+    line-height: 75px;
+    height: 75px;
+   
+}
+
+main {
+    margin: 15px;
+
+}
+
+p {
+    color: white;
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+ul{
+    text-align: left;
+    list-style-type: none;
+}
+
+.gmail-logo{
+    width: 75px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.logo-text { 
+    color: white;
+    vertical-align: middle;
+}
+
+.block {
+    background-color: red;;
+}
+
+.mail {
+    background-color: gray;
+    background-color: lightgrey;
+    border: 2px solid black;
+}
+
+.mail>div {
+    border: 2px solid black;
+    padding: 1rem 0;
+    margin: 2px;
+}
+
+.mail>main {
+    font-weight: 700;
+    color: black;
+    padding: 1rem 0;
+    margin: 2px;
+}
+
+.main + .main {
+    border-top: 1px solid green;
+}
+
+
